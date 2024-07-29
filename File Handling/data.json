@@ -1,0 +1,75 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 23,
+        "email": "johndoe@example.com",
+        "score": 85
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 29,
+        "email": "janesmith@example.com",
+        "score": 92
+      },
+      {
+        "id": 3,
+        "name": "Michael Brown",
+        "age": 35,
+        "email": "michaelbrown@example.com",
+        "score": 78
+      },
+      {
+        "id": 4,
+        "name": "Emily Davis",
+        "age": 27,
+        "email": "emilydavis@example.com",
+        "score": 88
+      },
+      {
+        "id": 5,
+        "name": "David Wilson",
+        "age": 31,
+        "email": "davidwilson@example.com",
+        "score": 90
+      },
+      {
+        "id": 6,
+        "name": "Linda Johnson",
+        "age": 22,
+        "email": "lindajohnson@example.com",
+        "score": 76
+      },
+      {
+        "id": 7,
+        "name": "Robert Martinez",
+        "age": 28,
+        "email": "robertmartinez@example.com",
+        "score": 81
+      },
+      {
+        "id": 8,
+        "name": "Susan Lee",
+        "age": 34,
+        "email": "susanlee@example.com",
+        "score": 89
+      },
+      {
+        "id": 9,
+        "name": "James Anderson",
+        "age": 26,
+        "email": "jamesanderson@example.com",
+        "score": 94
+      },
+      {
+        "id": 10,
+        "name": "Patricia Taylor",
+        "age": 30,
+        "email": "patriciataylor@example.com",
+        "score": 77
+      }
+    ]
+  }
+  

@@ -1,0 +1,4 @@
+The mean is the average value of a dataset.
+The median is the middle value in a sorted dataset.
+The mode is the most frequently occurring value in a dataset.
+Standard deviation measures the dispersion of a dataset.
