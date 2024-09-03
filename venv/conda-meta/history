@@ -1,5 +1,5 @@
-==> 2024-08-19 02:01:12 <==
-# cmd: C:\Users\Abhi\anaconda3\Scripts\conda-script.py create -p venv python
+==> 2024-08-30 22:28:44 <==
+# cmd: C:\Users\Abhi\anaconda3\Scripts\conda-script.py create -p venv python=3.12.4
 # conda version: 24.7.1
 +defaults/noarch::tzdata-2024a-h04d1e81_0
 +defaults/win-64::bzip2-1.0.8-h2bbff1b_6
@@ -17,4 +17,4 @@
 +defaults/win-64::wheel-0.43.0-py312haa95532_0
 +defaults/win-64::xz-5.4.6-h8cc25b3_1
 +defaults/win-64::zlib-1.2.13-h8cc25b3_1
-# update specs: ['python']
+# update specs: ['python=3.12.4']

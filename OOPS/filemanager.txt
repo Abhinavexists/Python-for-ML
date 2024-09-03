@@ -1,0 +1,1 @@
+Now, you can access length and width as properties and modify them with their setters:

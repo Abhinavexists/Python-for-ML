@@ -15236,7 +15236,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "python",
+  "requested_spec": "python=3.12.4",
   "sha256": "4f15c265f4b8f780f84fdbedd1c03ac492f828bc10393b3242cbf410b061c97d",
   "size": 17499266,
   "subdir": "win-64",
