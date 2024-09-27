@@ -1,0 +1,15 @@
+2024-09-26 11:47:54,555-contextual_logger-DEBUG-This is a debug message-test_func-13-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,555-contextual_logger-DEBUG-This is a debug message-test_func-13-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,555-contextual_logger-DEBUG-This is a debug message-test_func-13-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,558-contextual_logger-INFO-This is an info message-test_func-14-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,558-contextual_logger-INFO-This is an info message-test_func-14-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,558-contextual_logger-INFO-This is an info message-test_func-14-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,582-contextual_logger-WARNING-This is a warning message-test_func-15-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,582-contextual_logger-WARNING-This is a warning message-test_func-15-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,582-contextual_logger-WARNING-This is a warning message-test_func-15-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,582-contextual_logger-ERROR-This is an error message-test_func-16-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,582-contextual_logger-ERROR-This is an error message-test_func-16-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,582-contextual_logger-ERROR-This is an error message-test_func-16-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,582-contextual_logger-CRITICAL-This is a critical message-test_func-17-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,582-contextual_logger-CRITICAL-This is a critical message-test_func-17-User_ID:User1222-Session_ID:Session123
+2024-09-26 11:47:54,582-contextual_logger-CRITICAL-This is a critical message-test_func-17-User_ID:User1222-Session_ID:Session123
