@@ -1,3 +1,7 @@
+# Building url dynamically
+# variable rule
+# Jinja 2 Template Engine
+
 from flask import Flask , render_template ,request
 '''
  It creates an instance of the Flask class, 
@@ -37,5 +41,41 @@ def submit():
         return f"Hello {name} , email {mail} , my message is {message}!"
     return render_template('form.html')
 
+#variable rule
+@app.route('/success/<int:score>') #<> inside this is the parameter
+def success(score):
+    # return "The score is " +  str(score) # type casting for parameter restriction
+    res = ""
+    if score >= 50:
+        res = "Passed"
+    else:
+        res = "Failed"
+
+    return render_template('results.html',results = res)
+
+@app.route('/successres/<int:score>') #<> inside this is the parameter
+def successres(score):
+    # return "The score is " +  str(score) # type casting for parameter restriction
+    res = ""
+    if score >= 50:
+        res = "Passed"
+    else:
+        res = "Failed"
+
+    exp={'score':score , "res":res}
+
+    return render_template('result1.html',results = exp)
+
+#if condition
+@app.route('/successif/<int:score>') 
+def successif(score):
+     return render_template('result1.html' , results = score)
+
 if __name__ == "__main__":
     app.run(debug = True)
+
+'''
+{{ }} expresssion to print output in html
+{%...%} conditions , for loops
+{#...#} this is for comments
+'''
