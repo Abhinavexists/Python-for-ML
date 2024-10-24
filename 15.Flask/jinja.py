@@ -23,14 +23,14 @@ def hello():
 def about():
     return render_template('about.html')
 
-@app.route('/form' , methods = ['GET' , 'POST'])
-def form():
-    if request.method == 'POST':
-        name = request.form['name']
-        mail = request.form['email']
-        message = request.form['message']
-        return f"Hello {name} , email {mail} , my message is {message}!"
-    return render_template('form.html')
+# @app.route('/form' , methods = ['GET' , 'POST'])
+# def form():
+#     if request.method == 'POST':
+#         name = request.form['name']
+#         mail = request.form['email']
+#         message = request.form['message']
+#         return f"Hello {name} , email {mail} , my message is {message}!"
+#     return render_template('form.html')
 
 # @app.route('/submit' , methods = ['GET' , 'POST'])
 # def submit():
@@ -73,7 +73,6 @@ def successif(score):
 
 @app.route('/fail/<int:score>')
 def fail(score):
-
     return render_template('results.html',results = score)
 
 @app.route('/submit' , methods = ['POST' , 'GET'])
