@@ -1,20 +1,19 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 
-@st.cache_data() #load the data everytime into cache
+@st.cache_data
 def load_data():
     iris = load_iris()
-    df = pd.DataFrame(iris['data'], columns=iris['feature_names'])
+    df = pd.DataFrame(iris.data, columns=iris.feature_names)
     df['species'] = iris.target
-    return df , iris.target_names
+    return df, iris.target_names
 
-df , target_name = load_data()
+df,target_names=load_data()
 
-model = RandomForestClassifier()
-model.fit(df.iloc[:,:-1] , df['species'])
+model=RandomForestClassifier()
+model.fit(df.iloc[:,:-1],df['species'])
 
 st.sidebar.title("Input Features")
 sepal_length = st.sidebar.slider("Sepal length", float(df['sepal length (cm)'].min()), float(df['sepal length (cm)'].max()))
@@ -30,5 +29,3 @@ predicted_species = target_names[prediction[0]]
 
 st.write("Prediction")
 st.write(f"The predicted species is: {predicted_species}")
-
-
