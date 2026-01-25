@@ -1,6 +1,6 @@
 # Python for Machine Learning
 
-Welcome to the **Python for ML** repository! This repository provides a comprehensive set of resources, code examples, and learning materials to help you get started with Python. It covers a range of topics from basic fundamental to data visualization, web scraping, and building interactive web applications.
+Welcome to the **Python for ML** repository! This repository provides a comprehensive set of resources, code examples, and learning materials to help you get started with Python. It covers a range of topics from basic fundamentals to data visualization, web scraping, and building interactive web applications.
 
 ---
 
